@@ -1,0 +1,10 @@
+{:duct.core/project-ns  duct-ale
+ :duct.core/environment :production
+
+ :duct.module/logging {}
+ :duct.module.web/site {}
+ :duct.module/sql {}
+ :duct.module/cljs {:main duct-ale.client}
+
+ :duct.module/ataraxy
+ {}}
