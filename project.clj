@@ -7,9 +7,7 @@
                  [duct/module.logging "0.3.1"]
                  [duct/module.web "0.6.4"]
                  [duct/module.ataraxy "0.2.0"]
-                 [duct/module.cljs "0.3.2"]
-                 [duct/module.sql "0.4.2"]
-                 [org.postgresql/postgresql "42.1.4"]]
+                 [duct/module.cljs "0.3.2"]]
   :plugins [[duct/lein-duct "0.10.6"]]
   :main ^:skip-aot duct-ale.main
   :resource-paths ["resources" "target/resources"]
